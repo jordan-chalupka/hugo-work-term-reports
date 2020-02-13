@@ -3,15 +3,15 @@
 
 <head>
   
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-138683453-1"></script>
   <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag() { dataLaymeer.push(arguments); }
-    gtag('js', new Date());
-
-    gtag('config', 'UA-138683453-1');
+    !function () {
+      var analytics = window.analytics = window.analytics || []; if (!analytics.initialize) if (analytics.invoked) window.console && console.error && console.error("Segment snippet included twice."); else {
+        analytics.invoked = !0; analytics.methods = ["trackSubmit", "trackClick", "trackLink", "trackForm", "pageview", "identify", "reset", "group", "track", "ready", "alias", "debug", "page", "once", "off", "on"]; analytics.factory = function (t) { return function () { var e = Array.prototype.slice.call(arguments); e.unshift(t); analytics.push(e); return analytics } }; for (var t = 0; t < analytics.methods.length; t++) { var e = analytics.methods[t]; analytics[e] = analytics.factory(e) } analytics.load = function (t, e) { var n = document.createElement("script"); n.type = "text/javascript"; n.async = !0; n.src = "https://cdn.segment.com/analytics.js/v1/" + t + "/analytics.min.js"; var a = document.getElementsByTagName("script")[0]; a.parentNode.insertBefore(n, a); analytics._loadOptions = e }; analytics.SNIPPET_VERSION = "4.1.0";
+        analytics.load("lGp2YAuq3YIQelRAA38avbcvEmiJ478l");
+        analytics.page();
+      }
+    }();
   </script>
-  
   <meta charset="utf-8" />
   <link rel="icon" type="image/png" href="/img/favicon.ico">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
@@ -198,8 +198,7 @@
                     </h4>
                     
                     <p>
-                      <div><img class="center-block img-responsive" src="/img/elastic_transcoder_infrastructure.png" style="width:50%"/></div>
-
+                      <!-- raw HTML omitted -->
                     </p>
                     
                     <p>
@@ -207,8 +206,7 @@
                     </p>
                     
                     <p>
-                      <div><img class="center-block img-responsive" src="/img/elastic_transcoder_presentation.png" style="width:50%"/></div>
-
+                      <!-- raw HTML omitted -->
                     </p>
                     
                     <p>
@@ -222,12 +220,11 @@
                     </h4>
                     
                     <p>
-                      In addition to video responses, Kira Talent also offers the option to use written responses as part of an applicant&rsquo;s assessment.  To help assess written responses, there is a spelling and grammar checker which assesses written responses based on their spelling and grammar correctness.  However, the previous implementation of the spelling and grammar checker was not very accurate, and often missed errors and provided false positives when checking for spelling and grammar.  In the improved spelling and grammar checker which I built, I was able to make use of the open source project LanguageTool to improve the accuracy of the spelling and grammar checker while keeping costs associated with the spelling and grammar checker low.  Alongside creating this service, I also wrote the documentation and created an infrastructure diagram for this service.
+                      In addition to video responses, Kira Talent also offers the option to use written responses as part of an applicant's assessment.  To help assess written responses, there is a spelling and grammar checker which assesses written responses based on their spelling and grammar correctness.  However, the previous implementation of the spelling and grammar checker was not very accurate, and often missed errors and provided false positives when checking for spelling and grammar.  In the improved spelling and grammar checker which I built, I was able to make use of the open source project LanguageTool to improve the accuracy of the spelling and grammar checker while keeping costs associated with the spelling and grammar checker low.  Alongside creating this service, I also wrote the documentation and created an infrastructure diagram for this service.
                     </p>
                     
                     <p>
-                      <div><img class="center-block img-responsive" src="/img/spelling_and_grammar_highlighting.png" style="width:50%"/></div>
-
+                      <!-- raw HTML omitted -->
                     </p>
                     
                     <p>
@@ -235,8 +232,7 @@
                     </p>
                     
                     <p>
-                      <div><img class="center-block img-responsive" src="/img/spelling_and_grammar_analysis.png" style="width:50%"/></div>
-
+                      <!-- raw HTML omitted -->
                     </p>
                     
                     
@@ -246,12 +242,11 @@
                     </h4>
                     
                     <p>
-                      The largest project which I worked on this semester was Kira Assess.  This is Kira Talent&rsquo;s main product, and as such, I spent the majority of my time working on it.  The work that I did on Kira Assess ranged across our tech stack, from front-end cosmetic changes to backend data manipulation to ops work such as managing resources used when deploying the application to different environments.  While working on this project gained skills in python development using the Django framework, front-end development skills using Flight.js, Sass, and a bit of Vue.js.
+                      The largest project which I worked on this semester was Kira Assess.  This is Kira Talent's main product, and as such, I spent the majority of my time working on it.  The work that I did on Kira Assess ranged across our tech stack, from front-end cosmetic changes to backend data manipulation to ops work such as managing resources used when deploying the application to different environments.  While working on this project gained skills in python development using the Django framework, front-end development skills using Flight.js, Sass, and a bit of Vue.js.
                     </p>
                     
                     <p>
-                      <div><img class="center-block img-responsive" src="/img/kira_assess_ratings.png" style="width:50%"/></div>
-
+                      <!-- raw HTML omitted -->
                     </p>
                     
                     
@@ -274,7 +269,7 @@
                     </p>
                     
                     <p>
-                      My second goal was to create or substantially improve a piece of documentation.  Throughout my work term I ended up writing several different pieces of documentation, such as a document on Testing in Python, documentation for the Spelling and Grammar microservice that I wrote, documentation for the Video Conversion Worker service that I wrote, as well as instructions for how to migrate client&rsquo;s data to a different AWS region.
+                      My second goal was to create or substantially improve a piece of documentation.  Throughout my work term I ended up writing several different pieces of documentation, such as a document on Testing in Python, documentation for the Spelling and Grammar microservice that I wrote, documentation for the Video Conversion Worker service that I wrote, as well as instructions for how to migrate client's data to a different AWS region.
                     </p>
                     
                     <p>
